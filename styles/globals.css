@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* html, body ,heading
+    body에 검정색 설정 글씨 화이트
+*/
+@layer base {
+  body {
+      @apply bg-[#141414] text-white;
+  }
+}
+
+/* custom className */
+@layer components {
+    .headerLink {
+        @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition duration-[.4s]
+        hover:text-[#b3b3b3];
+    }
+}
