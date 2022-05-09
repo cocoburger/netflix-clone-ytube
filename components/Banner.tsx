@@ -1,7 +1,12 @@
 
 function Banner() {
     return (
-        <div>Banner</div>
+        <div>
+            {/*<div>*/}
+            {/*    <Image />*/}
+            {/*    */}
+            {/*</div>*/}
+        </div>
     );
 }
 
