@@ -2,7 +2,6 @@
 
 .gitignore
 .env.local
-/utils/requests.ts
 
 # dependencies
 /node_modules
